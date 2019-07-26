@@ -10,13 +10,11 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "",
+      "code": "cd /home/scrapbook/tutorial"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [{"file": "launch.sh", "target": "/usr/bin/", "chmod": "+x"}]
     }
   },
   "environment": {
