@@ -14,10 +14,10 @@ Algunos  son:
 Movernos al directorio del user
 `dotnet add package Akka --version 1.4.0-beta1`{{execute}}
 
-Abrir el archivo **Program.cs**`./Program.cs`{{open}}
+Abrir el archivo **Program.cs**`Program.cs`{{open}}
 
 
-<pre class="file" data-filename="./Program.cs" data-target="replace">using System;
+<pre class="file" data-filename="Program.cs" data-target="replace">using System;
 using Akka.Actor;
 using Akka.Event;
 
