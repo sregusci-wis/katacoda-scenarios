@@ -10,10 +10,26 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "",
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "launch.sh",
+          "target": "/usr/bin/",
+          "chmod": "+x"
+        }
+      ],
+      "host01": [
+        {
+          "file": "launch.sh",
+          "target": "/usr/bin/",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
