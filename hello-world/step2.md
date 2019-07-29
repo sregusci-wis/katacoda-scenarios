@@ -14,6 +14,8 @@ Algunos  son:
 Movernos al directorio del user
 `dotnet add package Akka --version 1.4.0-beta1`{{execute}}
 
+Abrir el archivo Program.Cs en la carpeta akkanet
+
 
 <pre class="file" data-filename="./akkanet/Program.cs" data-target="replace">using System;
 using Akka.Actor;
