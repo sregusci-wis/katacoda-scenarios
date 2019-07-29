@@ -1,14 +1,8 @@
 Crear un Proyecto .NetCore
 
-## Task
+## INICIO DE 0
 
-Movernos al directorio del user **command**
+Movernos al directorio del user
 `cd /home/scrapbook/tutorial`{{execute}}
 
-## Task
-
-Crear el nuevo proyecto de dotnet **command**
-
-`dotnet new console -o akkanet`{{execute}}
-
-
+Crear el nuevo proyecto de dotnet `dotnet new console -o akkanet`{{execute}}
