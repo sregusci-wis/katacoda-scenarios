@@ -1,7 +1,7 @@
 Las dependencias minimas son
 * Akka (Modulo base)
 
-Algunos  son:
+Algunas extras son:
 
 * Akka.Remote
 * Akka.Cluster
