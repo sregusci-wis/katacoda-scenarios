@@ -35,9 +35,4 @@ namespace akkanet
 
     }
 }
-
-
 </pre>
-          
-
-<pre class="file" data-target="clipboard">Test</pre>
