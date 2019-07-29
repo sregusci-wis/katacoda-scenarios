@@ -15,14 +15,28 @@ Movernos al directorio del user
 `dotnet add package Akka --version 1.4.0-beta1`{{execute}}
 
 
-<pre class="file" data-filename="akkanet/Program.cs" data-target="replace">var http = require('http');
-var requestListener = function (req, res) {
-  res.writeHead(200);
-  res.end('Hello, World!');
+<pre class="file" data-filename="./akkanet/Program.cs" data-target="replace">
+using System;
+using Akka.Actor;
+
+namespace akkanet
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var system = ActorSystem.Create("actorSystem"))
+            {
+                Console.WriteLine("Hello World!");
+                //var firstRef = Sys.ActorOf(Props.Create<PrintMyActorRefActor>(), "first-actor");
+            }
+        }
+
+
+    }
 }
 
-var server = http.createServer(requestListener);
-server.listen(3000, function() { console.log("Listening on port 3000")});
+
 </pre>
           
 
