@@ -44,7 +44,7 @@ namespace akkanet
 
             public PrimerActor()
             {
-                Receive<`HolaMundo>( x => HolaMundoHandler());
+                Receive<HolaMundo>( x => HolaMundoHandler());
             }
 
             private void HolaMundoHandler()
