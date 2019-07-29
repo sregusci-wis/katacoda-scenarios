@@ -1,7 +1,7 @@
 {
     "title": "Akka.Net Crash Course",
     "description": "Curso de Akka.net orientado a programadores OOP",
-    "icon": "fa-katacoda",
+    "icon": "fa-csharp",
     "courses": [
       {
         "course_id": "crear-proyecto",
