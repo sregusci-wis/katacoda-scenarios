@@ -15,7 +15,7 @@ Movernos al directorio del user
 `dotnet add package Akka --version 1.4.0-beta1`{{execute}}
 
 
-<pre class="file" data-filename="app.js" data-target="replace">var http = require('http');
+<pre class="file" data-filename="akkanet/Program.cs" data-target="replace">var http = require('http');
 var requestListener = function (req, res) {
   res.writeHead(200);
   res.end('Hello, World!');
