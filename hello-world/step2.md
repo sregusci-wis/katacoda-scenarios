@@ -58,3 +58,6 @@ namespace akkanet
 }
 
 </pre>
+
+Probamos el programa
+`dotnet run`{{execute}}
