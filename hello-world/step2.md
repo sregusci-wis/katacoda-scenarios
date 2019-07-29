@@ -17,7 +17,8 @@ Movernos al directorio del user
 Abrir el archivo **Program.cs**`akkanet/Program.cs`{{open}}
 
 
-<pre class="file" data-filename="akkanet/Program.cs" data-target="replace">using System;
+<pre class="file" data-filename="akkanet/Program.cs" data-target="replace">``
+using System;
 using Akka.Actor;
 using Akka.Event;
 
@@ -30,7 +31,7 @@ namespace akkanet
             using (var system = ActorSystem.Create("actorSystem"))
             {
                 Console.WriteLine("Hello World!");
-                IActorRef primerActor = system.ActorOf(Props.Create`<`PrimerActor>(), "primer-actor");
+                IActorRef primerActor = system.ActorOf(Props.Create<PrimerActor>(), "primer-actor");
                 primerActor.Tell(new PrimerActor.HolaMundo());
 
                 Console.ReadLine();
@@ -43,7 +44,7 @@ namespace akkanet
 
             public PrimerActor()
             {
-                Receive`<`HolaMundo>( x => HolaMundoHandler());
+                Receive<HolaMundo>( x => HolaMundoHandler());
             }
 
             private void HolaMundoHandler()
