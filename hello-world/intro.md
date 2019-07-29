@@ -1,1 +1,1 @@
-Welcome to your first Katacoda Scenario!
+Bienvenidos al Entrenamiento 🤘

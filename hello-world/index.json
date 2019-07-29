@@ -5,8 +5,12 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Paso 1 - Crear un nuevo Proyecto .NetCore",
       "text": "step1.md"
+    },
+    {
+      "title": "Paso 2 - Agregar Dependencias de Akka.Net",
+      "text": "step2.md"
     }],
     "intro": {
       "text": "intro.md",

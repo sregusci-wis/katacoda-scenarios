@@ -1,6 +1,6 @@
-Crear un Proyecto .NetCore
+Generamos una aplicacion de consola para probar los conceptos de Akka.Net
 
-## INICIO DE 0
+## TAREAS
 
 Movernos al directorio del user
 `cd /home/scrapbook/tutorial`{{execute}}
