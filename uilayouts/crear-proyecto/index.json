@@ -2,6 +2,7 @@
   "title": "Intro a Akka.net en .NetCore",
   "description": "Your First Scenario",
   "difficulty": "beginner",
+  "icon": "fa-csharp",
   "time": "2 minutes",
   "details": {
     "steps": [{
