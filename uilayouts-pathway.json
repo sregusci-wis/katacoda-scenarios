@@ -5,8 +5,8 @@
     "courses": [
       {
         "course_id": "crear-proyecto",
-        "title": "Proyecto desde 0 .net core con AKKA.Net",
-        "description": "Inicio de Proyecto desde 0"
+        "title": "Proyecto desde 0 ",
+        "description": ".net core con AKKA.Net"
       }
     ]
   }
