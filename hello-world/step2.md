@@ -19,6 +19,7 @@ Abrir el archivo **Program.cs** en la carpeta akkanet
 
 <pre class="file" data-filename="./akkanet/Program.cs" data-target="replace">using System;
 using Akka.Actor;
+using Akka.Event;
 
 namespace akkanet
 {
@@ -29,11 +30,30 @@ namespace akkanet
             using (var system = ActorSystem.Create("actorSystem"))
             {
                 Console.WriteLine("Hello World!");
-                //var firstRef = Sys.ActorOf(Props.Create<PrintMyActorRefActor>(), "first-actor");
+                IActorRef primerActor = system.ActorOf(Props.Create<PrimerActor>(), "primer-actor");
+                primerActor.Tell(new PrimerActor.HolaMundo());
+
+                Console.ReadLine();
+            }
+        }
+
+        public class PrimerActor : ReceiveActor
+        {
+            public class HolaMundo { };
+
+            public PrimerActor()
+            {
+                Receive<HolaMundo>( x => HolaMundoHandler());
+            }
+
+            private void HolaMundoHandler()
+            {
+                Console.WriteLine("Hola Mundo");
             }
         }
 
 
     }
 }
+
 </pre>

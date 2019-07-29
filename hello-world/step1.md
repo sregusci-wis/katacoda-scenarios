@@ -1,4 +1,5 @@
-Generamos una aplicacion de consola para probar los conceptos de Akka.Net
+Generamos una aplicación de consola para probar los conceptos de Akka.Net
+es un genio
 
 ## TAREAS
 
