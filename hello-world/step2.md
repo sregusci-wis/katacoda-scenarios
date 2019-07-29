@@ -31,7 +31,7 @@ namespace akkanet
             using (var system = ActorSystem.Create("actorSystem"))
             {
                 Console.WriteLine("Hello World!");
-                IActorRef primerActor = system.ActorOf(Props.Create`{}<`PrimerActor>(), "primer-actor");
+                IActorRef primerActor = system.ActorOf(Props.Create{&lt;PrimerActor&gt;}(), "primer-actor");
                 primerActor.Tell(new PrimerActor.HolaMundo());
 
                 Console.ReadLine();
@@ -44,7 +44,7 @@ namespace akkanet
 
             public PrimerActor()
             {
-                Receive`{'&lt;'HolaMundo'&gt;'}`( x => HolaMundoHandler());
+                Receive`{&lt;HolaMundo&gt;}`( x => HolaMundoHandler());
             }
 
             private void HolaMundoHandler()
