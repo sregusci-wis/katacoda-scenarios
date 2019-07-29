@@ -10,7 +10,8 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "",
+      "course": "/launch.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -19,14 +20,14 @@
       "client": [
         {
           "file": "launch.sh",
-          "target": "~/",
+          "target": "/",
           "chmod": "+x"
         }
       ],
       "host01": [
         {
           "file": "launch.sh",
-          "target": "~/",
+          "target": "/",
           "chmod": "+x"
         }
       ]
