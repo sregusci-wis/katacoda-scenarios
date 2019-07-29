@@ -30,7 +30,7 @@ namespace akkanet
         {
             using (var system = ActorSystem.Create("actorSystem"))
             {
-                Console.WriteLine("Hello World!");
+                Console.WriteLine("Hola desde Main");
                 IActorRef primerActor = system.ActorOf(Props.Create&lt;PrimerActor&gt;(), "primer-actor");
                 primerActor.Tell(new PrimerActor.HolaMundo());
 
@@ -49,7 +49,7 @@ namespace akkanet
 
             private void HolaMundoHandler()
             {
-                Console.WriteLine("Hola Mundo");
+                Console.WriteLine("Hola desde el Actor");
             }
         }
 
