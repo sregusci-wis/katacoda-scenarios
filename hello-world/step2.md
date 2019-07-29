@@ -15,8 +15,7 @@ Movernos al directorio del user
 `dotnet add package Akka --version 1.4.0-beta1`{{execute}}
 
 
-<pre class="file" data-filename="./akkanet/Program.cs" data-target="replace">
-using System;
+<pre class="file" data-filename="./akkanet/Program.cs" data-target="replace">using System;
 using Akka.Actor;
 
 namespace akkanet
