@@ -1,2 +1,3 @@
+#!/bin/bash
 echo iniciando tutorial...
 cd /home/scrapbook/tutorial
