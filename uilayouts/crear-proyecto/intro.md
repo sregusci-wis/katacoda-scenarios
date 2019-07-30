@@ -1,3 +1,3 @@
 Bienvenidos al Entrenamiento 🤘
 
-![INTRO](/assets/seals.jpg)
+![INTRO](/katacoda-scenarios/uilayouts/crear-proyecto/assets/seals.jpg)
