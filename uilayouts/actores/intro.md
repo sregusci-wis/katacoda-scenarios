@@ -1,1 +1,3 @@
-Bienvenidos al Entrenamiento 🤘
+Actores
+
+![MODEL](./actores/assets/actormodel.jpg)
