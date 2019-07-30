@@ -7,7 +7,48 @@
         "course_id": "crear-proyecto",
         "title": "Proyecto desde 0 ",
         "description": ".net core con AKKA.Net"
+      },
+      {
+        "course_id": "actores",
+        "title": "Actores 101",
+        "description": "Conceptos de Fundamentales de Actores"
+      },
+      {
+        "course_id": "mensajes",
+        "title": "Mensajes entre actores",
+        "description": "Introducción a los mecanisimos de envio de mesnajes"
+      },
+      {
+        "course_id": "supervisores-fallos",
+        "title": "Jerarquía de Supervisores y Fallos",
+        "description": "Comportamiento de actores y cadena de supervision"
+      },
+      {
+        "course_id": "watch",
+        "title": "Watch para monitorear actores",
+        "description": "Cuando usamos watch y su utlilidad en Akka"
+      },
+      {
+        "course_id": "behavior",
+        "title": "Comportamiento Polimorfico",
+        "description": "Cambio de Estado en tiempo de Mensaje"
+      },
+      {
+        "course_id": "routing",
+        "title": "Routing para envio de mensajes avanzados",
+        "description": "Como usar el router"
+      },
+      {
+        "course_id": "hcon",
+        "title": "Configuracion de HCON y Dispatchers",
+        "description": "Como usar el HCON para hacer overrides de Akka.net"
+      },
+      {
+        "course_id": "gotchas",
+        "title": "Trampas y Picardias de Akka.net",
+        "description": "Ojo con Akka.net que puede morder si no le prestan atencion"
       }
+
     ]
   }
   
