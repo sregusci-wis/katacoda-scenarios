@@ -1,3 +1,3 @@
 Bienvenidos al Entrenamiento 🤘
 
-![INTRO](./assets/seals.jpg)
+![INTRO](./crear-proyecto/assets/seals.jpg)
