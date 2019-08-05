@@ -39,8 +39,13 @@
         "description": "Como usar el router"
       },
       {
+        "course_id": "scheduling",
+        "title": "Enviar mensajes diferidos",
+        "description": "Como enviar mensajes en el futuro"
+      },
+      {
         "course_id": "hcon",
-        "title": "Configuracion de HCON y Dispatchers",
+        "title": "Configuración de HCON y Dispatchers",
         "description": "Como usar el HCON para hacer overrides de Akka.net"
       },
       {
