@@ -29,7 +29,7 @@
         "description": "Cuando usamos watch y su utlilidad en Akka"
       },
       {
-        "course_id": "behavior",
+        "course_id": "comportamiento",
         "title": "Comportamiento Polimorfico",
         "description": "Cambio de Estado en tiempo de Mensaje"
       },

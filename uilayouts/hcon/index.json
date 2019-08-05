@@ -6,13 +6,18 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Crear un nuevo Proyecto .NetCore",
-      "text": "step1.md"
+      "title": "Paso 1 - HCON basico",
+      "text": "basico.md"
     },
     {
-      "title": "Paso 2 - Agregar Dependencias de Akka.Net",
-      "text": "step2.md"
-    }],
+      "title": "Paso 2 - Loggers Custom",
+      "text": "CustomLoggers.md"
+    },
+    {
+      "title": "Paso 3 - Dispachers custom/Bulkhead",
+      "text": "Dispatchers.md"
+    }
+  ],
     "intro": {
       "text": "intro.md",
       "credits": ""

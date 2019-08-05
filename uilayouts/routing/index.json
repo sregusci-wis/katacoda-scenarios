@@ -6,12 +6,48 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Crear un nuevo Proyecto .NetCore",
-      "text": "step1.md"
+      "title": "Paso 1 - Grupos",
+      "text": "Group.md"
     },
     {
-      "title": "Paso 2 - Agregar Dependencias de Akka.Net",
-      "text": "step2.md"
+      "title": "Paso 2 - Pools",
+      "text": "Pools.md"
+    },
+    {
+      "title": "Paso 3 - RoundRobin Routing",
+      "text": "RoundRobin.md"
+    },
+    {
+      "title": "Paso 4 - Random Routing",
+      "text": "Random.md"
+    },
+    {
+      "title": "Paso 5 - Broadcast Routing",
+      "text": "Broadcast.md"
+    },
+    {
+      "title": "Paso 6 - Mensajes con destino",
+      "text": "ConsistentHashing.md"
+    },
+    {
+      "title": "Paso 7 - Broadcast y primer mensaje",
+      "text": "ScatterGatherFirstCompleted.md"
+    },
+    {
+      "title": "Paso 8 - El patron metralleta 🔫",
+      "text": "Metralleta.md"
+    },
+    {
+      "title": "Paso 9 - El menos ocupado",
+      "text": "SmallestMailbox.md"
+    },
+    {
+      "title": "Paso 10 - Random Recursivo",
+      "text": "TailChopping.md"
+    },
+    {
+      "title": "Paso 11 - Pools Dinamicos",
+      "text": "DynamicallyResizablePools.md"
     }],
     "intro": {
       "text": "intro.md",

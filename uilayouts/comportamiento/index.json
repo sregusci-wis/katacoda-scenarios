@@ -6,12 +6,12 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Crear un nuevo Proyecto .NetCore",
-      "text": "step1.md"
+      "title": "Paso 1 - Comportamiento Dinámico con Become",
+      "text": "Become.md"
     },
     {
-      "title": "Paso 2 - Agregar Dependencias de Akka.Net",
-      "text": "step2.md"
+      "title": "Paso 2 - Comportamiento Dinámico con UnBecome",
+      "text": "UnBecome.md"
     }],
     "intro": {
       "text": "intro.md",
