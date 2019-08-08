@@ -52,8 +52,12 @@
         "course_id": "gotchas",
         "title": "Trampas y Picardias de Akka.net",
         "description": "Ojo con Akka.net que puede morder si no le prestan atencion"
+      },
+      {
+        "course_id": "mini-auditor",
+        "title": "Proyecto de mini auditor 😁",
+        "description": "Mini Auditor para unir los conceptos de una manera familiar"
       }
-
     ]
   }
   
