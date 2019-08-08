@@ -8,7 +8,7 @@
     "steps": [{
       "title": "Paso 1 - Crear un nuevo Proyecto .NetCore",
       "code": "assets/step1-foreground.sh",
-      "courseData": "assets/background.sh",
+      "courseData": "assets/background1.sh",
       "text": "step1.md"
     },
     {
@@ -28,31 +28,11 @@
           "file": "launch.sh",
           "target": "/",
           "chmod": "+x"
-        },
-        {
-          "file": "background.sh",
-          "target": "/",
-          "chmod": "+x"
-        },
-        {
-          "file": "step1-foreground.sh",
-          "target": "/",
-          "chmod": "+x"
         }
       ],
       "host01": [
         {
           "file": "launch.sh",
-          "target": "/",
-          "chmod": "+x"
-        },
-        {
-          "file": "background.sh",
-          "target": "/",
-          "chmod": "+x"
-        },
-        {
-          "file": "step1-foreground.sh",
           "target": "/",
           "chmod": "+x"
         }
