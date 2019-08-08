@@ -8,6 +8,7 @@
     "steps": [{
       "title": "Paso 1 - Crear un nuevo Proyecto .NetCore",
       "code": "assets/step1-foreground.sh",
+      "courseData": "assets/background.sh",
       "text": "step1.md"
     },
     {
@@ -16,7 +17,6 @@
     }],
     "intro": {
       "text": "intro.md",
-      "courseData": "assets/background.sh",
       "credits": ""
     },
     "finish": {
