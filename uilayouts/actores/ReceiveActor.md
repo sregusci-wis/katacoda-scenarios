@@ -1,5 +1,6 @@
-Generamos una aplicación de consola para probar los conceptos de Akka.Net
-es un genio
+## RecieveActor
+
+Permite crear actores implementado la interface ReceiveActor
 
 ## TAREAS
 

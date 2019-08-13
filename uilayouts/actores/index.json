@@ -6,8 +6,9 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Actores Recieve",
-      "text": "RecieveActor.md"
+      "title": "Paso 1 - Actores Receive",
+      "text": "ReceiveActor.md",
+      "courseData": "clone_files.sh"
     },
     {
       "title": "Paso 2 - Actores UnTyped",
@@ -18,11 +19,15 @@
       "text": "PropsActores.md"
     },
     {
-      "title": "Paso 5 - Actores Multiples",
+      "title": "Paso 4 - Actores Multiples",
       "text": "MultipleActors.md"
     },
     {
-      "title": "Paso 5 - Hooks",
+      "title": "Paso 5 - Poison Pill",
+      "text": "PoisonPill.md"
+    },
+    {
+      "title": "Paso 6 - Hooks",
       "text": "Hooks.md"
     }],
     "intro": {
