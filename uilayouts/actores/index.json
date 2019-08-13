@@ -11,12 +11,12 @@
     },
     {
       "title": "Paso 2 - Actores UnTyped",
-      "text": "UnTypedActor.md",
-      "courseData": "clone_files.sh"
+      "text": "UnTypedActor.md"
     },
     {
       "title": "Paso 3 - Props",
-      "text": "PropsActores.md"
+      "text": "PropsActores.md",
+      "courseData": "clone_files.sh"
     },
     {
       "title": "Paso 4 - Actores Multiples",
