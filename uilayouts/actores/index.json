@@ -16,7 +16,7 @@
     {
       "title": "Paso 3 - Props",
       "text": "PropsActores.md",
-      "courseData": "clone_files.sh"
+      "course": "clone_files.sh"
     },
     {
       "title": "Paso 4 - Actores Multiples",
